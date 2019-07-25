@@ -1,3 +1,34 @@
 /**
  TODO(you): Write the CSS necessary to complete HW1!
 */
+
+
+header {
+  height: 500px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  font-family: "Roboto slab", serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: white;
+  max-width: 780px;
+  text-align: center;
+}
+
+
+.profile-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  line-height: 24px;
+  padding: 10px;
+  border-bottom: 2px solid #e6e6e6;
+}
